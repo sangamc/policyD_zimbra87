@@ -72,7 +72,7 @@ echo -e $ibold"[*] INFO : Activating WebUI PolicyD"$ebold
 echo ""
 echo "Manual Process"
 echo -e "-------------------------------------------------------------------------"
-echo -e "cd /opt/zimbra/httpd/htdocs/ && ln -s ../../common/share/webui"
+echo -e "cd /opt/zimbra/httpd/htdocs/ && ln -s ../../../common/share/webui"
 echo -e "vi /opt/zimbra/common/share/webui/includes/config.php"
 echo -e "-------------------------------------------------------------------------"
 echo "Press key Enter for activating WebUI PolicyD"
